@@ -1,0 +1,17 @@
+footer {
+    background-color:teal;
+    height:50px;
+}
+
+footer div {
+    background-color:gray;
+    height:40px;
+    padding-top:15px;
+    color:white;
+}
+
+.navbar-brand {
+    color:white !important;
+    background-color: teal !important;
+    margin-left:50% !important;
+}

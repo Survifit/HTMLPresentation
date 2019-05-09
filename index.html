@@ -12,18 +12,43 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
+    <!--Additional CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    
     <!--W3 JS (allows for includes)-->
     <script src="js/w3.js"></script>
-
+   
     <title>Weather Data</title>
 </head>
 
-<body>
-    <div w3-include-html="includes/nav.html"></div>
+<body style="background-color:black">
+  <div w3-include-html="includes/nav.html"></div>
+  
+  <div class="container" >
+    <div class="row">
+        <div class="col-md-8" style="background-color:aqua; margin:10px">
+      
+      
+        <H1>Summary: Latitude vs. X</H1>
+        <hr>
+        
+      
+      </div>
+      <div class="col-md-3" style="background-color:aqua; margin:10px">
+      <section style="padding: 10px">
+          
+              <H2>Visualizations</H2>
+              <hr>
+      </section>
+            </div>
+     
+    </div>
+  </div>
 
+  
 </body>
-<footer>
 
-</footer>
-  <script> w3.includeHTML();</script>
+<div w3-include-html="includes/footer.html"></div>
+
+<script> w3.includeHTML();</script>
 </html>
