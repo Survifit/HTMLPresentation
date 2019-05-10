@@ -1,5 +1,5 @@
 footer {
-    background-color:teal;
+    background-color:lightseagreen;
     height:50px;
 }
 
@@ -12,6 +12,54 @@ footer div {
 
 .navbar-brand {
     color:white !important;
-    background-color: teal !important;
+    background-color: lightseagreen !important;
     margin-left:50% !important;
+}
+
+h1, h2, h3 {
+    color:lightseagreen;
+}
+
+p {
+    margin-right:10px;
+    margin-left:10px;
+}
+#comparison {
+    padding:20px;
+}
+
+.container .row .col-12 {
+    padding:40px;
+}
+
+body {
+    margin-bottom:50px;
+    background-color:lightgray;
+}
+
+.primarycontent {
+    margin-top:50px;
+    
+}
+
+.addmargin {
+    margin:10px;
+}
+
+.white {
+    background-color:white;
+}
+#summarypic {
+    margin-right: 0px;
+
+}
+
+.thumbnail {
+    margin-bottom:5px !important;
+}
+
+.active {
+    
+    border-color: lightseagreen;
+    
 }
