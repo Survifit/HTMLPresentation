@@ -1,13 +1,21 @@
 footer {
-    background-color:lightseagreen;
+    position:relative;
+    left:0;
+    bottom:0;
+    width:100%;
     height:50px;
 }
 
 footer div {
+    position:relative;
+    left:0;
+    bottom:0;
+    width:100%;
     background-color:gray;
-    height:40px;
+    height:50px;
     padding-top:15px;
     color:white;
+    border-top:10px solid lightseagreen;
 }
 
 .navbar-brand {
@@ -29,17 +37,15 @@ p {
 }
 
 .container .row .col-12 {
-    padding:40px;
+    padding:10px 40px;
 }
 
 body {
-    margin-bottom:50px;
     background-color:lightgray;
 }
 
 .primarycontent {
-    margin-top:50px;
-    
+    margin-top:50px;   
 }
 
 .addmargin {
@@ -49,9 +55,9 @@ body {
 .white {
     background-color:white;
 }
+
 #summarypic {
     margin-right: 0px;
-
 }
 
 .thumbnail {
@@ -59,7 +65,18 @@ body {
 }
 
 .active {
-    
     border-color: lightseagreen;
-    
+}
+
+.overflow {
+    overflow:auto;
+}
+
+table, th, td {
+    border-left:none !important;
+    border-right:none !important;
+}
+
+table, th {
+    border-top:none !important;
 }

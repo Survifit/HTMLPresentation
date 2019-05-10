@@ -26,12 +26,12 @@
   
   <div class="container primarycontent">
     <div class="row">
-        <div class="col-md-7 addmargin white" >
+        <div class="col-md-7 addmargin white overflow">
       
       
         <H1>Summary: Latitude vs. X</H1>
         <hr>
-        <img src="images/temperature.png" class="pull-left img-responsive" id="summarypic">
+        <img src="images/temperature.png" class="pull-left img-responsive" id="summarypic" >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -85,9 +85,11 @@
   </div>
 
   
+
 </body>
 
-<div w3-include-html="includes/footer.html"></div>
+<!--Add top-margin here to force footer to bottom for short content-->
+<div w3-include-html="includes/footer.html" style="margin-top:40px"></div>  
 
 <script> w3.includeHTML();</script>
 </html>
