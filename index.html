@@ -26,20 +26,25 @@
   
   <div class="container primarycontent">
     <div class="row">
-        <div class="col-md-7 addmargin white overflow">
-      
+      <div class="col-md-7 addmargin white overflow">
       
         <H1>Summary: Latitude vs. X</H1>
         <hr>
         <img src="images/temperature.png" class="pull-left img-responsive" id="summarypic" >
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-          nisi ut aliquip ex ea commodo consequat.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-          nisi ut aliquip ex ea commodo consequat.</p>
+        <p>This project is an exploration of the impact of latitude on four different weather 
+          measurements using a random list of cities around the globe. First a list of six hundred
+          valid latitude/longitude pairs are created and then run through the <a href="https://pypi.org/project/citypy">
+          citipy module</a> to find the closest city to each geographic point. Then the list of cities is used to pull
+          weather data from the <a href="https://openweathermap.org/api">OpenWeatherMap API</a>. Since some 
+          cities are not included on the OpenWeatherMap website, this process is repeated, if necessary, until 
+          a minimum of 500 cities are included in the dataset.
+        </p>
+        <p>The weather measurements analyzed were temperature, wind speed, humidity, and cloudiness. Of the four, only 
+          temperature showed any significant correlation with the latitude measurement, with wind speed showing the largest 
+          outliers at the more extreme latitudes, and humidity and cloudiness showing no significant variation with latitude. 
+          The four generated charts are shown under the Visualizations header on this page, each leading to an individual 
+          analysis page. The <a href="data.html">full dataset</a> is also available on this site.          
+        </p>
       
       </div>
       <div class="col-md-4 addmargin white" >
